@@ -1,0 +1,6 @@
+services:
+  simulador-do-caos:
+    image: fiorindiluiz/simulador-do-caos:latest
+    ports:
+      - "8080:3000"
+    restart: always
